@@ -1,0 +1,26 @@
+{
+  "name": "eslpod20",
+  "version": "0.0.0",
+  "description": "eslpod20 ========",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/surmind/eslpod20.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/surmind/eslpod20/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-coffee": "*",
+    "grunt-contrib-jade": "*",
+    "grunt-contrib-stylus": "*",
+    "grunt-contrib-watch": "^0.6.1"
+  },
+  "homepage": "https://github.com/surmind/eslpod20"
+}

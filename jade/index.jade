@@ -1,0 +1,38 @@
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    meta(name="format-detection" content="telephone=no")
+    meta(name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target=densitydpi=device-dpi")
+    link(rel="stylesheet" type="text/css" href="css/bootstrap.min.css")
+    link(rel="stylesheet" type="text/css" href="css/pure-min.css")
+    link(rel="stylesheet" type="text/css" href="css/index.css")
+    title ESLPOD
+  body
+    .app
+    #debug
+
+    script(type="text/template" id="player")
+      .player
+        .grid-1-4
+          .player-head
+            button.btn.btn-default.play play
+        .grid-1-4
+          .player-tail
+            button.btn.btn-default.pause pause
+        .grid-1-4
+          .player-tail
+            button.btn.btn-default.stop stop
+        .grid-1-4
+          .player-tail
+            button.btn.btn-default.back back5
+    script(type="text/template" id="progress")
+      .progress.progress-striped.active
+        .progress-bar &nbsp;
+        .progress-text 开始下载
+    script(type="text/javascript" src="http://192.168.1.123:8080/target/target-script-min.js#eslpod")
+    script(type="text/javascript" src="cordova.js")
+    script(type="text/javascript" src="js/jquery-2.1.0.min.js")
+    script(type="text/javascript" src="js/underscore-min.js")
+    script(type="text/javascript" src="js/underscore.string.min.js")
+    script(type="text/javascript" src="js/eslpod.js")
